@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="calculadora">  
+    <input type="text" name="tela" id="display" disabled>
+    <input type="button" name="apagar" value="C" class="padrao" id="exc" onclick="location.reload()">
+
+    <div class="botao">
+      
+      <input type="button" class="padrao"  value="9" onclick="insert(9)">
+      <input type="button" class="padrao"  value="8" onclick="insert(8)">
+      <input type="button" class="padrao"  value="7" onclick="insert(7)">
+      <input type="button" class="blue"  value="+" onclick="insert('+')">
+
+      <input type="button" class="padrao" value="6" onclick="insert(6)">
+      <input type="button" class="padrao"  value="5" onclick="insert(5)">
+      <input type="button" class="padrao" value="4" onclick="insert(4)">
+      <input type="button" class="pink"  value="-" onclick="insert('-')">
+
+      <input type="button" class="padrao"  value="3" onclick="insert(3)">
+      <input type="button" class="padrao" value="2" onclick="insert(2)">
+      <input type="button" class="padrao" value="1" onclick="insert(1)">
+      <input type="button" class="green" value="*" onclick="insert('*')">
+
+      <input type="button" class="padrao" value="." onclick="insert('.')">
+      <input type="button" class="padrao"  value="0" onclick="insert(0)">
+      <input type="button" class="purple" value="=" onclick="conta()">
+      <input type="button" class="yellow"  value="/" onclick="insert('/')">
+    </div>
+  </div>
+  <div class="texto">
+    <h1>Calculadora</h1>
+  </div>
+</body>
+</html>

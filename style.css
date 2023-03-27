@@ -1,0 +1,113 @@
+body{
+    background-color: #000;
+}
+.texto{
+    color: #ffff;
+    position: absolute;
+    left: 790px;
+    font-size: 25px;
+    text-shadow: purple -3px 0,blue 3px 0;
+}
+.calculadora{
+    background-color: rgb(25, 27, 26);
+    border-radius:4%;
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+#display{
+    background-color: rgb(70, 68, 68);
+    height: 90px;
+    width: 370px;
+    border-radius: 10%;
+    margin-top: 11px;
+    margin-left: 12px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 50px;
+    color: #ffff
+}
+#exc{
+    position: relative;
+    width: 385px;
+    text-align: center;
+    padding: 0px;
+    
+}
+.padrao{
+    height: 80px;
+    width: 90px;
+    margin-top: 7px;
+    margin-left: 6px;
+    padding: 0px;
+    color: #ffff;
+    background-color: #000;
+    font-size: 39px;
+}
+.blue{
+    background-color: #0cd0cd;
+    height: 80px;
+    width: 90px;
+    margin-top: 7px;
+    margin-left: 6px;
+    padding: 0px;
+    color: #ffff;
+    font-size: 39px;
+}
+.pink{
+    background-color: #cf1596;
+    height: 80px;
+    width: 90px;
+    margin-top: 7px;
+    margin-left: 6px;
+    padding: 0px;
+    color: #ffff;
+    font-size: 39px;
+}
+.green{
+    background-color: #aad800;
+    height: 80px;
+    width: 90px;
+    margin-top: 7px;
+    margin-left: 6px;
+    padding: 0px;
+    color: #ffff;
+    font-size: 39px;
+}
+.purple{
+    background-color: #8c52ff;
+    height: 80px;
+    width: 90px;
+    margin-top: 7px;
+    margin-left: 6px;
+    padding: 0px;
+    color: #ffff;
+    font-size: 39px;
+}
+.yellow{
+    background-color: #fcb707;
+    height: 80px;
+    width: 90px;
+    margin-top: 7px;
+    margin-left: 6px;
+    padding: 0px;
+    color: #ffff;
+    font-size: 39px;
+}
+input:hover{
+  background: transparent;
+  cursor: pointer;
+}
+
+@media (max-width:1588px) {
+    .texto{
+        font-size: 0;
+    }
+  }
